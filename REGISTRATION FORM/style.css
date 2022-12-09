@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+   
+    background: linear-gradient(45deg, #ff0 50%, #333 50%);
+    overflow: hidden;
+   
+    
+}
+
+#Registration {
+   margin-top: 12px;
+   text-align: center;
+   font-size: 80px;
+   color: #f4c613;
+   
+
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    
+}
+
+
+.left {
+        margin-top: 60px;
+        left: 0;
+}
+
+
+
+
+
+.details h4{
+    margin-left: 62px;
+    font-size: 40px;
+    margin-bottom: 23px;
+}
+
+.form-group {
+    margin-left: 62px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.checkbox {
+    
+    font-size: 20px;
+}
+
+#img {
+    margin-left: 118px;
+    height: 32px;
+    width: 30%;
+    padding-left: 12px;
+
+}
+
+#name{
+
+    margin-left: 120px;
+    height: 32px;
+    width: 30%;
+    padding-left: 12px;
+
+}
+
+
+#email {
+
+    margin-left: 120px;
+    height: 32px;
+    width: 30%;
+    padding-left: 12px;
+
+}
+
+#website {
+
+    margin-left: 100px;
+    height: 32px;
+    width: 30%;
+    padding-left: 12px;
+
+
+}
+
+#website, #email, #img, #name {
+    background-color: gray;
+}
+
+#name, #website, #email, #img:hover {
+    cursor: pointer;
+    }
+
+#name::placeholder {
+    font-size: 14px;
+    color: #f4c613;
+    
+}
+
+#website::placeholder {
+    font-size: 14px;
+    color: #f4c613;
+}
+
+#email::placeholder {
+    font-size: 14px;
+    color: #f4c613;
+}
+
+#img::placeholder {
+    font-size: 14px;
+    color: #f4c613;
+}
+.gender {
+    margin-right: 105px;
+    font-size: 25px;
+   
+}
+
+#cplus, #java, #python, #male, #female, #other {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.skill {
+    margin-right:121px;
+    font-size:25px;
+}
+
+.btn1 {
+    margin-left: 75px;
+    margin-top: 23px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.btn2 {
+    margin-left: 40px;
+    margin-top: 23px;
+    height: 50px;
+    width: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.btn1:hover, .btn2:hover {
+    cursor: pointer;
+}
+#red {
+    background-color: red;
+    color: white;
+    border-radius: 14px;
+}
+
+#submit {
+    background-color: blue;
+    color: white;
+    border-radius: 14px;
+}
+
+#red:hover {
+    background-color: white;
+    color: red;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+   
+}
+
+#submit:hover {
+    background-color: white;
+    color: blue;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+input {
+    color: white;
+}
+
+
+
+
+/*********************************************************************Right Side ********************************************************************** */
+
+
+#header {
+    margin-left: 85px;
+    font-size: 40px;
+    color: #f4c613;
+}
+.record, .enrolledstudent {
+    color: #f4c613;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+.record, .enrolledstudent, .right2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 9px;
+    margin-bottom: 5px;
+}
+
+.record, .enrolledstudent, #rdetails {
+    display: inline-block;    
+}
+
+
+.right {
+    
+    margin-top: 60px;
+    right: 0;
+    /* opacity: 0; */
+}
+
+
